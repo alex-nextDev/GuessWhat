@@ -1,20 +1,15 @@
-package nfa03101;
+package nfa031;
 
-
-
-public class GuessWhatTest {
-	
-	
+public class GuessWhatTest{
 
 	public static void main(String[] args) {
-	
-		GuessWhatMethode.play();
 		
-		while(GuessWhatMethode.playagain())
+		
+		GuessWhat.play();
+		
+		while(GuessWhat.playagain())
 		{
-			
-			GuessWhatMethode.play();
+			GuessWhat.play();
 		}
-
 	}
 }
