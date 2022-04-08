@@ -14,7 +14,6 @@ public class GuessWhatMethode {
 		match(joueur, computer);
 	}
 	
-	
 	public static boolean playagain()
 	{
 		
@@ -62,7 +61,6 @@ public class GuessWhatMethode {
 		return gamer;
 
 	}
-	
 	
 	
 	public static String computerChoice()
@@ -136,8 +134,6 @@ public class GuessWhatMethode {
 			System.out.println("Perdu, dommage");
 			playagain();
 		}
-		
-		
 	}
 	
 }
